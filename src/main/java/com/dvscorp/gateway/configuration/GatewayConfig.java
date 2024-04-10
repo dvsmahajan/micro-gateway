@@ -15,7 +15,7 @@ public class GatewayConfig {
 
         return builder.routes()
                 .route("productModule", r -> r.path("/api/v1/products")
-                        .uri("lb://dvs-corp-product-service")
+                        .uri("lb://product-app")
                 )
 
 //                .route("customerModule", r -> r.path("/customer/**")
