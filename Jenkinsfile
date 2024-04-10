@@ -2,7 +2,7 @@
 
 commons{
 
-    name = "gateway"
+    name = "micro-gateway"
     deployment = true
     service = true
     docker = true
